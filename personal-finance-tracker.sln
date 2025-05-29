@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.36105.23 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalFinanceTracker.API", "PersonalFinanceTracker.API\PersonalFinanceTracker.API.csproj", "{B1992201-9F3D-8FAA-CA66-9D2C5FFBF166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "personal-finance-tracker.AppHost", "personal-finance-tracker.AppHost\personal-finance-tracker.AppHost.csproj", "{5FAFBEC8-5E96-40EE-AD1D-ED281A89FE17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "personal-finance-tracker.ServiceDefaults", "personal-finance-tracker.ServiceDefaults\personal-finance-tracker.ServiceDefaults.csproj", "{8CCE4381-D6BA-837A-D1DB-E5F830FA1315}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1992201-9F3D-8FAA-CA66-9D2C5FFBF166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1992201-9F3D-8FAA-CA66-9D2C5FFBF166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1992201-9F3D-8FAA-CA66-9D2C5FFBF166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1992201-9F3D-8FAA-CA66-9D2C5FFBF166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FAFBEC8-5E96-40EE-AD1D-ED281A89FE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAFBEC8-5E96-40EE-AD1D-ED281A89FE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAFBEC8-5E96-40EE-AD1D-ED281A89FE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAFBEC8-5E96-40EE-AD1D-ED281A89FE17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCE4381-D6BA-837A-D1DB-E5F830FA1315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCE4381-D6BA-837A-D1DB-E5F830FA1315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCE4381-D6BA-837A-D1DB-E5F830FA1315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCE4381-D6BA-837A-D1DB-E5F830FA1315}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EABEB5D-AED0-4513-968D-27E2AE51446B}
+	EndGlobalSection
+EndGlobal

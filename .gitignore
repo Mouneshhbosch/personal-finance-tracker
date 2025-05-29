@@ -1,0 +1,54 @@
+# Exclude Visual Studio files and directories
+.vs/
+
+# === Node / Angular ===
+node_modules/
+dist/
+.angular/
+.env
+.env.*.local
+
+# === .NET Core ===
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# === Logs ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === IDEs ===
+.vscode/
+.idea/
+.vs/
+   
+*.code-workspace
+
+# === Build Artifacts ===
+build/
+out/
+coverage/
+wwwroot/
+
+# === Environment Files ===
+*.env
+*.local
+
+# === Docker ===
+*.pid
+docker-compose.override.yml
+
+.vs/
